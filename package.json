@@ -5,7 +5,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "gp": "bash scripts/gp.sh $1",
+    "gf": "bash scripts/gf.sh $1",
+    "gc": "bash scripts/gc.sh $1"
   },
   "dependencies": {
     "next": "12.0.7",
